@@ -42,7 +42,8 @@ body {
 button {
     padding: 10px;
     margin: 5px;
-    background-color: #ee7614;
+    margin-left: 0;
+    background-color: #B7E3CC;
     color: black;
     font-weight: bolder;
     font-size: 15pt;
@@ -74,6 +75,11 @@ button:hover {
     color: black;
     background-color: white;
     transition: all 1s;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #145247;
 }
 
 /* Classes */
