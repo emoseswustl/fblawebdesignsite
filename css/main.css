@@ -1,0 +1,297 @@
+/* ~~~THIS STYLESHEET CONTROLS CUSTOM DESIGN OF THE WEBPAGE~~~ */
+
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,300italic,400italic,700,700italic);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Elements */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 135px;
+    min-height: 100%;
+}
+
+hr {
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 99%;
+    margin: 5px;
+}
+
+
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d10000;
+    text-decoration: underline;
+    transition: all 1s;
+}
+
+/* Classes */
+
+.mlink {
+    font-size: 22px;
+    display: block;
+    width: auto;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    color: #999999;
+}
+
+.current {
+    color: lightgray;
+    font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.last {
+    padding-right: 0;
+}
+
+.success {
+    color: #00cc00;
+    font-size: 100px;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 100px;
+}
+
+.title {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    color: darkblue;
+}
+
+header,
+header *,
+footer,
+footer * {
+    background-color: transparent;
+    color: lightgray;
+}
+
+header,
+footer {
+    background: rgb(24, 24, 24);
+    /*
+    background: rgb(61, 61, 61);
+    background: linear-gradient(90deg, rgba(61, 61, 61, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(61, 61, 61, 1) 100%); */
+    /*
+    background: rgb(127,0,0);
+    background: linear-gradient(90deg, rgba(127,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(127,0,0,1) 100%); */
+}
+
+.clickicon {
+    font-size: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+.clickicon:hover {
+    opacity: 0.25;
+}
+
+main .container {
+    min-height: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer .container {
+    margin-bottom: 14px;
+}
+
+.feature .row {
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.feature h1,
+.feature h2,
+.feature h3,
+.feature h4,
+.feature h5,
+.feature h6,
+.feature p {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header .side {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mlink {
+    display: inline-block;
+    align-self: center;
+    float: none;
+    font-weight: bold;
+}
+
+footer .container .row .w100 {
+    text-align: center;
+}
+
+.feature {
+    margin-top: -220px;
+    color: #4e1082;
+}
+
+.logotext {
+    /* color: #ff6308; */
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+.ltext {
+    color: #4e1082;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:1100px) {
+    .logotext {
+        font-size: 50px;
+        padding: 0px;
+        padding-bottom: 10px;
+        float: none;
+    }
+
+    .logo {
+        float: left;
+        margin-top: 7px;
+        margin-right: 14px;
+    }
+
+    .mlink {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .glide {
+        width: 95%;
+        margin-top: -25px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .logotext {
+        padding-bottom: 5px;
+    }
+
+    .navbar {
+        height: 45px;
+        position: relative;
+    }
+
+    #mlinks {
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px
+    }
+    .glide {
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+#sm {
+    padding-top: 16px;
+}
+
+.narrowcontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.intro {
+    bottom: 55%;
+    transform: translateY(50%);
+    position: absolute;
+}
+
+.logotext:hover {
+    color: #d10000;
+    text-decoration: underline;
+    transition: all 3s;
+}
