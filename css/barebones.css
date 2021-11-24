@@ -172,11 +172,8 @@ main .row {
     }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:1100px) {
     .w40, .w45, .w50, .w55, .w60, .w65, .w66, .w70, .w75, .w80, .w85, .w90, .w95, .w100 {
         width: 98%;
-    }
-    .navbar {
-        align-items: left;
     }
 }
