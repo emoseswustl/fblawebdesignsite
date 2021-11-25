@@ -142,7 +142,7 @@ footer {
 }
 
 .featureimage {
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .clickicon {
@@ -192,12 +192,6 @@ footer .container {
 .feature p {
     margin-left: 2%;
     margin-right: 2%;
-}
-
-header .side {
-    width: 25%;
-    height: 100%;
-    position: absolute;
 }
 
 header {
@@ -303,6 +297,27 @@ footer .container .row .w100 {
         margin-left: 8%;
         margin-right: 8%;
     }
+
+    body {
+        background-color: rgb(24, 24, 24);
+    }
+
+    .container {
+        background-color: white;
+        width: 90%;
+        padding: 0%;
+        margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 40px;
+    }
+
+    main {
+        margin-top: -25px;
+        margin-bottom: -55px;
+        position: relative;
+        z-index: 99;
+    }
 }
 
 #sm {
@@ -325,3 +340,22 @@ footer .container .row .w100 {
     text-decoration: underline;
     transition: all 3s;
 }
+
+
+/*
+
+header, footer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+footer {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}*/
