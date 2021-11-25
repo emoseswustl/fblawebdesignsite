@@ -43,7 +43,8 @@ button {
     padding: 10px;
     margin: 5px;
     margin-left: 0;
-    background-color: #ffc480;
+    /*background-color: #ffc480;*/
+    background-color: #fd6776;
     color: black;
     font-weight: bolder;
     font-size: 15pt;
@@ -90,7 +91,7 @@ button:hover {
     margin: 0;
     padding-right: 20px;
     padding-bottom: 8px;
-    color: #ffc480;
+    color: #fd6776;
 }
 
 .current {
@@ -217,7 +218,8 @@ footer .container .row .w100 {
 
 .logotext {
     /* color: #ff6308; */
-    color: #ff4255;
+    /* color: #ff4255; */
+    color: #fd6776;
     font-size: 35px;
     padding: 0;
     margin: 0;
@@ -239,6 +241,10 @@ footer .container .row .w100 {
     margin: 0;
     text-align: left;
     vertical-align: middle;
+}
+
+.container {
+    background: #f8f8f8;
 }
 
 @media screen and (max-width:1100px) {
@@ -269,6 +275,10 @@ footer .container .row .w100 {
     .glide {
         width: 95%;
         margin-top: -25px;
+    }
+
+    body {
+        background-color: #f8f8f8;
     }
 }
 
@@ -303,7 +313,7 @@ footer .container .row .w100 {
     }
 
     .container {
-        background-color: white;
+        background-color: #f8f8f8;
         width: 90%;
         padding: 0%;
         margin: 0;
