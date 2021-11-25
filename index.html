@@ -77,7 +77,7 @@
                     <p>1 Viking Drive <br /> Caledonia, MO 63631</p>
                     <p>Or, reach out to us to check stocked items and learn more!</p>
                     <a href="contact.html"><button type="button">Contact us &#8614;</button></a>
-                    <form name="contact" netlify>
+                    <form name="contact" data-netlify-recaptcha="true" netlify>
                         <p>
                             <label>Name <br><input type="text" name="name" required/></label>
                         </p>
@@ -89,6 +89,7 @@
                             <br>
                             <textarea id="message" name="message" rows="5" cols="40" required></textarea>
                         </p>
+                        <div data-netlify-recaptcha="true"></div>
                         <p>
                             <button type="submit">Send</button>
                         </p>
