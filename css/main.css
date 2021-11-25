@@ -48,8 +48,8 @@ button {
     font-weight: bolder;
     font-size: 15pt;
     font-family: "Roboto Slab", serif;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 2.5px solid black;
+    border-radius: 15px;
 }
 
 hr {
