@@ -2,4 +2,5 @@
 Normalize.css: https://github.com/necolas/normalize.css/ under the MIT License; Copyright © Nicolas Gallagher and Jonathan Neal
 Google Fonts 
 Photo by <a href="https://unsplash.com/@febiyanr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Febiyan</a> on <a href="https://unsplash.com/s/photos/bicycle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+FontAwesome icons
+Map embed from Mapbox

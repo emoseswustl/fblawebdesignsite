@@ -154,7 +154,7 @@ footer {
 }
 
 .clickicon:hover {
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 main .container {
@@ -217,7 +217,7 @@ footer .container .row .w100 {
 
 .logotext {
     /* color: #ff6308; */
-    color: #ffffff;
+    color: #ff4255;
     font-size: 35px;
     padding: 0;
     margin: 0;
@@ -341,6 +341,13 @@ footer .container .row .w100 {
     transition: all 3s;
 }
 
+.rounded {
+    border-radius: 20px;
+}
+
+.fab {
+    color: #fd6776;
+}
 
 /*
 
