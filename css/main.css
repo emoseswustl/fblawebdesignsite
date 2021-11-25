@@ -141,6 +141,10 @@ footer {
     background: linear-gradient(90deg, rgba(127,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(127,0,0,1) 100%); */
 }
 
+.featureimage {
+    border-radius: 40px;
+}
+
 .clickicon {
     font-size: 35px;
     margin-left: 2px;
