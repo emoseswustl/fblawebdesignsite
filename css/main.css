@@ -36,13 +36,6 @@ textarea {
     resize: none;
 }
 
-input, textarea {
-    border-radius: 10px;
-    padding: 6px;
-    border: 2px solid black;
-    background-color: #ffe2e5;
-}
-
 body {
     position: relative;
     margin: 0;
