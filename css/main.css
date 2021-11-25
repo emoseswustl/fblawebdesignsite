@@ -36,6 +36,7 @@ textarea {
     resize: none;
 }
 
+
 input, textarea {
     border-radius: 10px;
     padding: 6px;
@@ -252,10 +253,6 @@ footer .container .row .w100 {
     margin: 0;
     text-align: left;
     vertical-align: middle;
-}
-
-.recaptcha {
-    border-radius: 10px;
 }
 
 .container {
