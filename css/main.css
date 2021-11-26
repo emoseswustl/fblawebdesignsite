@@ -219,6 +219,10 @@ header {
     font-weight: bold;
 }
 
+.firstline {
+    margin-top: 0px;
+}
+
 footer .container .row .w100 {
     text-align: center;
 }
@@ -331,6 +335,7 @@ footer .container .row .w100 {
         margin: 0;
         margin-left: 5%;
         margin-right: 5%;
+        padding: 20px;
         border-radius: 40px;
     }
 
