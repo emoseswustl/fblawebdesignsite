@@ -102,15 +102,17 @@ button:hover {
     padding: 0;
     margin: 0;
     padding-right: 20px;
+    padding-top: 4px;
     padding-bottom: 8px;
     color: #fd6776;
 }
 
 .current {
     color: lightgray;
-    font-size: 28px;
+    font-style: italic;
+    /* font-size: 28px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
 }
 
 .last {
@@ -223,6 +225,10 @@ header {
     margin-top: 0px;
 }
 
+.fa-envelope-open-text, .fa-clipboard, .fa-hashtag {
+    color: #AC003F;
+}
+
 footer .container .row .w100 {
     text-align: center;
 }
@@ -264,10 +270,9 @@ footer .container .row .w100 {
 }
 
 .contactinfo {
-    border: 2.5px solid black;
+    border: 3px solid black;
     padding: 15px;
     border-radius: 20px;
-    background-color: #DFE0ED;
 }
 
 @media screen and (max-width:1100px) {
