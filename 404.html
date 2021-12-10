@@ -14,6 +14,10 @@
                 font-family: 'Roboto', sans-serif;
             }
 
+            body {
+                background-color: rgb(24, 24, 24);
+            }
+
             h1,
             h2,
             h3,
@@ -30,8 +34,8 @@
                 margin: auto;
                 margin-top: 50px;
                 padding: 20px;
-                border: 2px solid black;
                 border-radius: 20px;
+                background-color: #f8f8f8;
             }
 
             h2 {
@@ -43,14 +47,69 @@
             .logo404 {
                 padding-bottom: 20px;
             }
+
+            .logotext {
+                /* color: #ff6308; */
+                /* color: #ff4255; */
+                color: rgb(24, 24, 24);
+                font-size: 35px;
+                padding: 0;
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 1px;
+                float: left;
+            }
+
+            .logo {
+                float: left;
+            }
+
+            .row {
+                height: auto;
+            }
+
+            .toppad {
+                padding-top: 30px;
+            }
+
+            button {
+                padding: 10px;
+                margin: 5px;
+                margin-left: 0;
+                /*background-color: #ffc480;*/
+                background-color: #fd6776;
+                color: black;
+                font-weight: bolder;
+                font-size: 15pt;
+                font-family: "Roboto Slab", serif;
+                border: 2.5px solid black;
+                border-radius: 15px;
+            }
+
+            button:hover {
+                color: black;
+                background-color: white;
+                transition: all 1s;
+                cursor: pointer;
+            }
         </style>
     </head>
     <body>
         <div class="fourbox">
-            <img class="logo404" src="icons/images/icons/icon-128x128.png">
-            <h2>Page not found</h2>
-            <p>The page you were looking for is not available on this site.</p>
-            <a href="index.html">Return to home page</a>
+            <div class="row left">
+                <div class="w100">
+                    <img class="logo" src="img/volcano.png" width="45px" height="45px">
+                    <h1 class="logotext">Caldera</h1>
+                </div>
+            </div>
+            <div class="row toppad">
+                <div class="w100">
+                    <h2>Page not found</h2>
+                    <p>The page you were looking for is not available on this site.</p>
+                    <a href="index.html"><button type="button">Return to home page &#8614;</button></a>
+                </div>
+            </div>
+            <small>Error code 404</small>
         </div>
     </body>
 
