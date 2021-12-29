@@ -2,11 +2,11 @@
 
 /* Fonts */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,300,300italic,400italic,700,700italic);
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1,
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lora', serif;
 }
 
 
@@ -60,7 +60,7 @@ button {
     color: black;
     font-weight: bolder;
     font-size: 15pt;
-    font-family: "Roboto Slab", serif;
+    font-family: "Lora", serif;
     border: 2.5px solid black;
     border-radius: 15px;
 }
