@@ -277,9 +277,9 @@ footer .container .row .w100 {
 
 @media screen and (max-width:1100px) {
     .logotext {
-        font-size: 50px;
+        font-size: 40px;
         padding: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         float: none;
     }
 
