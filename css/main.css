@@ -269,7 +269,7 @@ footer .container .row .w100 {
     background: #f8f8f8;
 }
 
-.contactinfo {
+.infocard {
     border: 3px solid black;
     padding: 15px;
     border-radius: 20px;
@@ -279,7 +279,7 @@ footer .container .row .w100 {
     .logotext {
         font-size: 50px;
         padding: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         float: none;
     }
 
@@ -300,13 +300,12 @@ footer .container .row .w100 {
         text-decoration: underline;
     }
 
-    .glide {
-        width: 95%;
-        margin-top: -25px;
-    }
-
     body {
         background-color: #f8f8f8;
+    }
+
+    main .row {
+        padding-bottom: 20px;
     }
 }
 
@@ -328,12 +327,6 @@ footer .container .row .w100 {
         margin: 0;
         padding-top: 12.5px;
         padding-bottom: 12.5px;
-    }
-
-    .glide {
-        width: 84%;
-        margin-left: 8%;
-        margin-right: 8%;
     }
 
     body {
@@ -361,6 +354,16 @@ footer .container .row .w100 {
 
 #sm {
     padding-top: 16px;
+}
+
+#services .fas {
+    padding-bottom: 10px;
+    color: #AC003F;
+}
+
+#services p {
+    margin-top: -8px;
+    margin-bottom: 2px;
 }
 
 .narrowcontainer {
