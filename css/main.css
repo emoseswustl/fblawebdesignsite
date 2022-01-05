@@ -279,7 +279,7 @@ footer .container .row .w100 {
     .logotext {
         font-size: 40px;
         padding: 0px;
-        padding-bottom: 10px;
+        padding-top: 6px;
         float: none;
     }
 
@@ -292,6 +292,7 @@ footer .container .row .w100 {
     .mlink {
         font-size: 19px;
         padding-bottom: 10px;
+        padding-right: 10px;
     }
 
     #mlinks .current {
