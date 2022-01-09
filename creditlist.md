@@ -1,3 +1,5 @@
+Website developed by Ethan Moses
+
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 Normalize.css: https://github.com/necolas/normalize.css/ under the MIT License; Copyright © Nicolas Gallagher and Jonathan Neal
 Rubik and Lora from Google Fonts 
@@ -8,3 +10,6 @@ Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_med
   
 FontAwesome icons
 Map embed from Mapbox
+
+find type of license and link to content/site (preferably make a table?)
+usage - name - author - link

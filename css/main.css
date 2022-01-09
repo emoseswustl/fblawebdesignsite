@@ -391,9 +391,9 @@ footer .container .row .w100 {
 }
 
 .logotext:hover {
-    color: #d10000;
+    color: #ff929d;
     text-decoration: underline;
-    transition: all 3s;
+    transition: all 1s;
 }
 
 .rounded {
