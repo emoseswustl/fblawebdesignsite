@@ -47,7 +47,7 @@ input, textarea {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 135px;
+    padding-bottom: 175px;
     min-height: 100%;
 }
 
@@ -73,13 +73,22 @@ hr {
     margin: 5px;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
+header,
+header *,
+footer,
+footer * {
+    background-color: transparent;
+    color: lightgray;
 }
 
-a:hover {
-    color: #d10000;
+a {
+    color: #b31c2b;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover, a b:hover {
+    color: #ff929d;
     text-decoration: underline;
     transition: all 1s;
 }
@@ -127,30 +136,12 @@ input:focus, textarea:focus {
     padding-right: 0;
 }
 
-.success {
-    color: #00cc00;
-    font-size: 100px;
-}
-
-.error {
-    color: #ff0000;
-    font-size: 100px;
-}
-
 .title {
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0;
     color: darkblue;
-}
-
-header,
-header *,
-footer,
-footer * {
-    background-color: transparent;
-    color: lightgray;
 }
 
 header,
@@ -193,10 +184,6 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-footer .container {
-    margin-bottom: 14px;
 }
 
 .feature .row {
@@ -320,6 +307,14 @@ footer .container .row .w100 {
     iframe {
         height: 300px;
     }
+
+    main {
+        margin-bottom: -110px;
+    }
+
+    .footermodifier {
+        padding-top: 25px;
+    }
 }
 
 @media screen and (min-width:1100px) {
@@ -359,7 +354,7 @@ footer .container .row .w100 {
 
     main {
         margin-top: -25px;
-        margin-bottom: -55px;
+        margin-bottom: -80px;
         position: relative;
         z-index: 99;
     }
@@ -407,6 +402,12 @@ footer .container .row .w100 {
 
 .fab {
     color: #fd6776;
+}
+
+.footermodifier {
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-bottom: 10px;
 }
 
 /*

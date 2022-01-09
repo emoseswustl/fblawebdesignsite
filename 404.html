@@ -8,15 +8,11 @@
         <style type="text/css">
             /* Fonts */
 
-            @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
-            @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,300italic,400italic,700,700italic);
+            @import url(https://fonts.googleapis.com/css?family=Rubik:400,300,300italic,400italic,700,700italic);
+            @import url(https://fonts.googleapis.com/css?family=Lora:400,300,300italic,400italic,700,700italic);
 
             * {
-                font-family: 'Roboto', sans-serif;
-            }
-
-            body {
-                background-color: rgb(24, 24, 24);
+                font-family: 'Rubik', sans-serif;
             }
 
             h1,
@@ -25,18 +21,29 @@
             h4,
             h5,
             h6 {
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Lora', serif;
+            }
+
+            body {
+                background-color: rgb(24, 24, 24);
             }
 
             .fourbox {
                 text-align: center;
                 width: 300px;
-                height: 300px;
+                height: auto;
                 margin: auto;
-                margin-top: 50px;
-                padding: 20px;
+                margin-top: 20px;
+                padding: 10px;
                 border-radius: 20px;
                 background-color: #f8f8f8;
+            }
+
+            .fourboxlogo {
+                text-align: center;
+                width: 300px;
+                margin: auto;
+                margin-top: 25px;
             }
 
             h2 {
@@ -52,7 +59,7 @@
             .logotext {
                 /* color: #ff6308; */
                 /* color: #ff4255; */
-                color: rgb(24, 24, 24);
+                color: #fd6776;
                 font-size: 35px;
                 padding: 0;
                 margin: 0;
@@ -70,7 +77,8 @@
             }
 
             .toppad {
-                padding-top: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
 
             button {
@@ -82,7 +90,7 @@
                 color: black;
                 font-weight: bolder;
                 font-size: 15pt;
-                font-family: "Roboto Slab", serif;
+                font-family: "Lora", serif;
                 border: 2.5px solid black;
                 border-radius: 15px;
             }
@@ -96,21 +104,24 @@
         </style>
     </head>
     <body>
-        <div class="fourbox">
-            <div class="row left">
+        <div class="fourboxlogo">
+            <div class="row left logobox">
                 <div class="w100">
                     <img class="logo" src="img/volcano.png" width="45px" height="45px">
                     <h1 class="logotext">Caldera</h1>
                 </div>
             </div>
+        </div>
+        <div class="fourbox">
             <div class="row toppad">
                 <div class="w100">
                     <h2>Page not found</h2>
                     <p>The page you were looking for is not available on this site.</p>
                     <a href="index.html"><button type="button">Return to home page &#8614;</button></a>
+                    <br>
+                    <small>Error code 404</small>
                 </div>
             </div>
-            <small>Error code 404</small>
         </div>
     </body>
 
