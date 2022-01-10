@@ -259,6 +259,11 @@ footer .container .row .w100 {
         float: none;
     }
 
+    header {
+        height: auto;
+        max-height: 90px;
+    }
+
     .logo {
         float: left;
         margin-top: 7px;
@@ -266,9 +271,9 @@ footer .container .row .w100 {
     }
 
     .mlink {
-        font-size: 19px;
-        padding-bottom: 10px;
-        padding-right: 10px;
+        font-size: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
     }
 
     #mlinks .current {
