@@ -296,6 +296,10 @@ footer .container .row .w100 {
     .footermodifier {
         padding-top: 25px;
     }
+
+    textarea {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width:1100px) {
@@ -363,6 +367,10 @@ footer .container .row .w100 {
 .narrowcontainer {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.contactmap {
+    max-height: 500px;
 }
 
 .intro {
