@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/barebones.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburger.css">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -29,12 +30,45 @@
                         <h1 class="logotext">Caldera</h1>
                     </a>
                 </div>
+                
                 <div class="w50 cond left navbar">
                     <div id="mlinks">
                         <a class="mlink" href="products.html">Services</a>
                         <a class="mlink" href="guides.html">Guides</a>
-                        <a class="mlink" href="contact.html">Contact Us</a>
+                        <a class="mlink current" href="contact.html">Contact Us</a>
                     </div>
+                </div>
+                
+                <div class="mobile navbar">
+                    <nav role='navigation'>
+                        <div id="menuToggle">
+                          <!--
+                          A fake / hidden checkbox is used as click reciever,
+                          so you can use the :checked selector on it.
+                          -->
+                          <input type="checkbox" />
+                          
+                          <!--
+                          Some spans to act as a hamburger.
+                          
+                          They are acting like a real hamburger,
+                          not that McDonalds stuff.
+                          -->
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          
+                          <!--
+                          Too bad the menu has to be inside of the button
+                          but hey, it's pure CSS magic.
+                          -->
+                          <ul id="menu">
+                            <a href="products.html"><li>Services</li></a>
+                            <a href="guides.html"><li>Guides</li></a>
+                            <a href="contact.html"><li class="current">Contact Us</li></a>
+                          </ul>
+                        </div>
+                      </nav>
                 </div>
             </div>
         </div>
