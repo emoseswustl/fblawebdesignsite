@@ -194,3 +194,7 @@ html {
 main {
     z-index: 999;
 }
+
+.builditem {
+  padding-bottom: 2px;
+}

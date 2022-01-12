@@ -7,6 +7,15 @@ Rubik and Lora from Google Fonts
 # Computer photo
 Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ales Nesetril</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+# keypad photo
+Photo by <a href="https://unsplash.com/@moneyphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">olieman.eth</a> on <a href="https://unsplash.com/s/photos/password?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+# CPU photo
+Photo by <a href="https://unsplash.com/@ocollet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivier Collet</a> on <a href="https://unsplash.com/s/photos/pc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+# Hard drive
+Photo by <a href="https://unsplash.com/@nkend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick van der Ende</a> on <a href="https://unsplash.com/s/photos/hard-drive?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
 FontAwesome icons
 Map embed from Mapbox

@@ -78,8 +78,8 @@
             <br>
             <div class="row">
                 <div class="w25 left">
-                    <i class="fas fa-boxes fa-6x"></i>
-                    <h1 id="parts">Parts</h1>
+                    <i id="parts" class="fas fa-boxes fa-6x"></i>
+                    <h1>Parts</h1>
                     <p>View a quick summary of the parts we have in stock, ranging across many devices.</p>
                 </div>
                 <div class="w75 left infocard">
@@ -91,8 +91,8 @@
             <br>
             <div class="row">
                 <div class="w25 left">
-                    <i class="fas fa-tools fa-6x"></i>
-                    <h1 id="repair">Repair</h1>
+                    <i id="repair" class="fas fa-tools fa-6x"></i>
+                    <h1>Repair</h1>
                     <p>Learn more about devices we frequently repair, including PCs and phones.</p>
                 </div>
                 <div class="w75 left infocard">
@@ -104,8 +104,8 @@
             <br>
             <div class="row">
                 <div class="w25 left">
-                    <i class="fas fa-desktop fa-6x"></i>
-                    <h1 id="pcs">Custom Built PCs</h1>
+                    <i id="pcs" class="fas fa-desktop fa-6x"></i>
+                    <h1>Custom Built PCs</h1>
                     <p>Find more info about our PC build process, from start to finish.</p>
                 </div>
                 <div class="w75 left infocard">
@@ -119,9 +119,35 @@
                     </div>
                     <div class="w40">
                         <h2 class="firstline">Parts List</h2>
-                        <p>Check out our gaming PC build guide to get a sense of what components your new PC needs.</p>
-                        <a href=""><button type="button">PC build guide &#8614;</button></a>
+                        <p>Check out our PC build guide to get a sense of what components your new PC needs.</p>
+                        <a href="guides/diypc.html"><button type="button">PC build guide &#8614;</button></a>
                     </div>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="w25 left">
+                    <i id="appt" class="fas fa-calendar-day fa-6x"></i>
+                    <h1>Appointments</h1>
+                    <p>Use our scheduling tool to book a consultation, so we can further assess your situation and give a quote.</p>
+                </div>
+                <div class="w75 left">
+                    <iframe id="appointy-iframe" class="no-border infocard" src="https://booking.appointy.com/calderatech?isgadget=1&autoheight=1"  scrolling="no" width="100%" frameBorder="0"></iframe>
+                    <script>
+                        (function() {
+                            const ifrm = document.getElementById("appointy-iframe");
+                            window.addEventListener("message", function (e) {
+                                const d = e.data || {};
+                                if (d.type === "height"){
+                                    ifrm.style.height = d.data + "px";
+                                }
+                                if (d.type === "scroll") {
+                                    ifrm.scrollIntoView();
+                                }
+                            });
+                        })();
+                    </script>
                 </div>
             </div>    
         </div>
