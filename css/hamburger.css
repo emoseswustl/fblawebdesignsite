@@ -198,3 +198,7 @@ main {
 .builditem {
   padding-bottom: 2px;
 }
+
+* {
+  word-wrap: break-word;
+}
