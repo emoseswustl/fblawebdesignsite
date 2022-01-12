@@ -11,5 +11,9 @@ Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_med
 FontAwesome icons
 Map embed from Mapbox
 
+Collapsible mobile menu from Erik Terwan - https://codepen.io/erikterwan/pen/grOZxx
+
 find type of license and link to content/site (preferably make a table?)
 usage - name - author - link
+
+Privacy policy and tos from freeprivacypolicy.com
