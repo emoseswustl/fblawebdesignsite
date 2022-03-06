@@ -59,9 +59,9 @@ button:active {
 
 .minibutton {
     padding: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-left: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
     background-color: #ff8692;
     color: black;
     font-family: "Rubik", sans-serif;
@@ -316,6 +316,10 @@ footer .container .row .w100 {
 
     textarea {
         width: 75%;
+    }
+
+    .minibutton {
+        font-size: 16px;
     }
 }
 
