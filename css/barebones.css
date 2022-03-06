@@ -19,8 +19,8 @@ h6 {
 }
 
 p, li {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 h3 {
@@ -42,6 +42,12 @@ h3 {
 
 .center {
     text-align: center;
+}
+
+/* CSS Effects */
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Grids */

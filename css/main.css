@@ -21,6 +21,7 @@ textarea {
 input, textarea {
     border-radius: 10px;
     padding: 6px;
+    font-size: 12pt;
     border: 2px solid black;
     background-color: #ffe2e5;
 }
@@ -216,7 +217,7 @@ footer .container .row .w100 {
     padding: 0;
     margin: 0;
     padding-left: 10px;
-    padding-top: 1px;
+    margin-top: -1px;
     float: left;
 }
 
@@ -240,16 +241,21 @@ footer .container .row .w100 {
 }
 
 .infocard {
-    border: 3px solid black;
-    padding: 15px;
+    border: 2px solid black;
+    padding: 20px;
     border-radius: 20px;
+}
+
+.preline {
+    margin-top: -10px;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width:1100px) {
     .logotext {
         font-size: 40px;
         padding: 0px;
-        padding-top: 6px;
+        padding-top: 5px;
         float: none;
     }
 
@@ -402,7 +408,7 @@ footer .container .row .w100 {
     padding-left: 12px;
 }
 
-.infocard img, .rc {
+.infocard img, .rc, .rb {
     border-radius: 20px;
 }
 
@@ -435,4 +441,8 @@ table tr:last-child td:last-child {
 td {
     padding: 10px;
     border: 1px black solid;
+}
+
+.appt {
+    padding: 0;
 }

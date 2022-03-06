@@ -18,7 +18,7 @@
  {
    display: block;
    position: absolute;
-   top: 30px;
+   top: 32px;
    right: 10px;
    
    z-index: 1;
@@ -137,6 +137,7 @@
    font-size: 22px;
    text-align: right;
    padding-right: 20px;
+   line-height: 1;
  }
 
 li:not(.builditem) {
