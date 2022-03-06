@@ -46,6 +46,33 @@ button {
     border-radius: 15px;
 }
 
+button:hover {
+    color: black;
+    background-color: #fd67766b;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ff3347;
+}
+
+.minibutton {
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 5px;
+    background-color: #ff8692;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.minibutton:hover {
+    background-color: #ffa3ad;
+}
+
 hr {
     border-color: black;
     border-style: solid;
@@ -78,17 +105,6 @@ a:hover, a b:hover {
     color: #ff929d;
     text-decoration: underline;
     transition: all 1s;
-}
-
-button:hover {
-    color: black;
-    background-color: #fd67766b;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-button:active {
-    background-color: #ff3347;
 }
 
 input:focus, textarea:focus {
@@ -295,11 +311,7 @@ footer .container .row .w100 {
     }
 
     main {
-        margin-bottom: -80px;
-    }
-
-    .footermodifier {
-        padding-top: 25px;
+        margin-bottom: -30px;
     }
 
     textarea {
@@ -344,7 +356,7 @@ footer .container .row .w100 {
 
     main {
         margin-top: -25px;
-        margin-bottom: -80px;
+        margin-bottom: -60px;
         position: relative;
         z-index: 99;
     }
@@ -438,11 +450,22 @@ table tr:last-child td:last-child {
     border-bottom-right-radius: 20px;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
 td {
     padding: 10px;
     border: 1px black solid;
+    word-wrap: break-word;
 }
 
 .appt {
     padding: 0;
+}
+
+.icongroup {
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
