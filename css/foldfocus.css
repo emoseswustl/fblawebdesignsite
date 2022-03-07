@@ -62,6 +62,12 @@
     padding-top: 25px;
 }
 
+button {
+    color: white;
+    background: rgb(175, 54, 66);
+    border: 0;
+}
+
 @media screen and (max-width:1100px) {
     .fold {
         display: grid;
