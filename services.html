@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/barebones.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="css/foldfocus.css">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -61,18 +62,24 @@
     <main>
         <!-- Main content -->
 
-        <div class="container serviceinfo">
-            <div class="row">
-                <div class="w100 center">
+        <div class="focuscontainer">
+            <div class="row fold">
+                <div class="w50 left foldtext">
                     <h1 class="firstline">Learn more about the services we provide in-store.</h1>
-                    <p>Click to scroll to: 
-                        <a class="jumplinks" href="#parts">Parts</a> 
-                        <a class="jumplinks" href="#repair">Repair</a> 
-                        <a class="jumplinks" href="#pcs">Custom Built PCs</a>
-                        <a class="jumplinks" href="#appt">Make an Appointment</a>
+                    <p class="left">Click to scroll to: <br>
+                        <a href="#parts"><button class="minibutton" type="button">Parts</button></a>
+                        <a href="#repair"><button class="minibutton" type="button">Repair</button></a>
+                        <a href="#pcs"><button class="minibutton" type="button">Custom Built PCs</button></a>
+                        <a href="#appt"><button class="minibutton" type="button">Make an Appointment</button></a>
                     </p>
                 </div>
-            </div> 
+                <div class="w50"></div>
+                <div class="w50 right foldimage">
+                    <img class="featureimage" src="img/wrenchlowpx.png" width="75%">
+                </div>
+            </div>
+        </div>
+        <div class="container serviceinfo">
             <div class="row">
                 <div class="w25 center">
                     <i id="parts" class="fas fa-boxes fa-6x"></i>

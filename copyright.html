@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/barebones.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="css/foldfocus.css">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -60,17 +61,29 @@
     <!-- END -->
     <main>
         <!-- Main content -->
-
-        <div class="container">
-            <div class="row">
-                <div class="w100">
+        <div class="focuscontainer">
+            <div class="row fold">
+                <div class="w100 left foldtextnc">
                     <h1 class="firstline">Copyrighted content used from other authors</h1>
                     <p>All resources were covered by licenses or Terms of Service agreements that allow for their free usage in commercial projects. Scroll down to view resources and their copyright statements.</p>
                     <p>All other CSS and HTML, along with the content of this website, was developed by Ethan Moses for the FBLA Website Design competitive event in 2022.</p>
-                    <p>This website is hosted by <a href="https://www.netlify.com/">Netlify</a>.</p>
+                    <p>This website is hosted by <a href="https://www.netlify.com">Netlify</a>.
+                    </p>
+                    <p class="left">Click to scroll to: <br>
+                        <a href="#ul"><button class="minibutton" type="button">Unsplash License</button></a>
+                        <a href="#ml"><button class="minibutton" type="button">MIT License</button></a>
+                        <a href="#of"><button class="minibutton" type="button">Open Font License</button></a>
+                        <a href="#fl"><button class="minibutton" type="button">Flaticon License</button></a>
+                        <a href="#fa"><button class="minibutton" type="button">Font Awesome Free License</button></a>
+                        <a href="#tos"><button class="minibutton" type="button">Terms of Service Agreements</button></a>
+                    </p>
                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
                 <div class="w50 left">
-                    <h2 class="firstline">Photos covered by the <a href="https://unsplash.com/license">Unsplash License</a></h2>
+                    <h2 id="ul" class="firstline">Photos covered by the <a href="https://unsplash.com/license">Unsplash License</a></h2>
                     <small>"Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use photos from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile photos from Unsplash to replicate a similar or competing service."</small>
                     <table style="margin-top: 20px; margin-bottom: 30px;">
                         <tr>
@@ -101,7 +114,7 @@
                     </table>
                 </div>
                 <div class="w50 left">
-                    <h2 class="firstline">Resources covered by the <a href="https://opensource.org/licenses/MIT">MIT License</a></h2>
+                    <h2 id="ml" class="firstline">Resources covered by the <a href="https://opensource.org/licenses/MIT">MIT License</a></h2>
                     <small>"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</small>
                     <br>
                     <small>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</small>
@@ -123,7 +136,7 @@
             </div>
             <div class="row">
                 <div class="w50 left">
-                    <h2 class="firstline">Fonts covered by the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a></h2>
+                    <h2 id="of" class="firstline">Fonts covered by the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a></h2>
                     <small>This license enables the usage of fonts for commercial use. Fonts can be modified and distributed as long as they are not sold by themselves.</small>
                     <table style="margin-top: 20px; margin-bottom: 30px;">
                         <tr>
@@ -144,7 +157,7 @@
                     </table>
                 </div>
                 <div class="w50 left">
-                    <h2 class="firstline">Icon covered by the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Flaticon License</a></h2>
+                    <h2 id="fl" class="firstline">Icon covered by the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Flaticon License</a></h2>
                     <small>This license enables the usage of icons for commercial and personal projects involving any form of media. Icons can be used an unlimited amount of times, and they can be modified and used in derived works.</small>
                     <table style="margin-top: 20px; margin-bottom: 30px;">
                         <tr>
@@ -162,7 +175,7 @@
             </div>
             <div class="row">
                 <div class="w50 left">
-                    <h2 class="firstline">Icons covered by the <a href="https://fontawesome.com/license/free">Font Awesome Free License</a></h2>
+                    <h2 id="fa" class="firstline">Icons covered by the <a href="https://fontawesome.com/license/free">Font Awesome Free License</a></h2>
                     <small>This license enables the usage of icons for commercial and personal projects, including websites. The only restriction is that Font Awesome's name can not be used as the project name.</small>
                     <table style="margin-top: 20px; margin-bottom: 30px;">
                         <tr>
@@ -178,7 +191,7 @@
                     </table>
                 </div>
                 <div class="w50 left">
-                    <h2 class="firstline">Embedded elements covered by Terms of Service agreements</a></h2>
+                    <h2 id="tos" class="firstline">Embedded elements covered by Terms of Service agreements</a></h2>
                     <small>These resources do not have licenses indicating their usage, but their Terms of Service agreements allow for their usage in projects.</small>
                     <table style="margin-top: 20px; margin-bottom: 30px;">
                         <tr>

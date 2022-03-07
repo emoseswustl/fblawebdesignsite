@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/barebones.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="css/foldfocus.css">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -62,30 +63,52 @@
     <main>
         <!-- Main content -->
 
-        <div class="container">
-            <div class="row">
-                <div class="w100 center">
-                    <h1 class="firstline">Questions about our services and products?</h1>
+        <div class="focuscontainer">
+            <div class="row fold">
+                <div class="w50 left foldtext">
+                    <h1 class="firstline">Questions about our services and products?</h1>                    
+                    <p>We have multiple contact methods you can use to reach us conveniently.</p>
+                </div>
+                <div class="w50"></div>
+                <div class="w50 right foldimage">
+                    <img class="featureimage" src="img/phonelowpx.png" width="50%">
                 </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="w20"></div>
-                <div class="w30 center infocard">
+                <div class="w25 center">
                     <i class="fas fa-envelope-open-text fa-7x"></i>
                     <h1>Email</h1>
                     <p>Email us at <a href="mailto://calderatech.mo@gmail.com">calderatech.mo@gmail.com</a>.</p>
                 </div>
-                <div class="w30 center infocard">
+                <div class="w25 center">
                     <i class="fas fa-hashtag fa-7x"></i>
                     <h1>Social media</h1>
                     <p>Send us a <a href="#sm">direct message</a>.</p>
                 </div>
-                <div class="w20"></div>
+                <div class="w25 center">
+                    <i class="fa-solid fa-envelopes-bulk fa-7x"></i>
+                    <h1>Send a letter</h1>
+                    <p>1 Viking Drive <br /> Caledonia, MO 63631</p>
+                </div>
+                <div class="w25 center">
+                    <i class="fa-regular fa-clipboard fa-7x"></i>
+                    <h1>Contact form</h1>
+                    <p>Fill out our <a href="#cf">contact form</a>.</p>
+                </div>
             </div>
             <div class="row">
-                <div class="w20"></div>
-                <div class="w60 left">
-                    <h2 class="firstline">Contact form</h2>
+                <div class="w20 left">
+                    <h2 class="firstline">Visit Caldera to browse our full selection!</h2>
+                    <p>Open from 9 A.M. to 5 P.M. <br> Monday to Friday</p>
+                    <p>1 Viking Drive <br /> Caledonia, MO 63631</p>
+                </div>
+                <div class="w40 left">
+                    <iframe class="rounded" width='100%' height='600px' src="https://api.mapbox.com/styles/v1/ethanmoses04/ckwf4lpfubed216p89gcdzb4i.html?title=false&access_token=pk.eyJ1IjoiZXRoYW5tb3NlczA0IiwiYSI6ImNrd2Y0aWZ6bjBiNzMzMXF3d3d5MGc0NmcifQ.X7dok2HT-57kiuC3O__QIw&zoomwheel=false#16.54/37.777886/-90.779314" title="Map of Caldera's location in Caledonia, Missouri" style="border:none;"></iframe>
+                </div>
+                <div class="w40 left">
+                    <h2 id="cf" class="firstline">Contact form</h2>
                     <p>Fill out the form below, and a staff member will reach out to you as soon as possible.</p>
                     <form name="contact" action="/formsuccess.html" data-netlify-recaptcha="true" netlify>
                         <p>
@@ -105,19 +128,6 @@
                         </p>
                     </form>
                 </div>
-                <div class="w20"></div>
-            <div class="row contactmap">
-                <div class="w20"></div>
-                <div class="w20 left">
-                    <h2 class="firstline">Visit Caldera to browse our full selection!</h2>
-                    <p>Open from 9 A.M. to 5 P.M. <br> Monday to Friday</p>
-                    <p>1 Viking Drive <br /> Caledonia, MO 63631</p>
-                </div>
-                <div class="w40 left">
-                    <iframe class="rounded" width='100%' height='450px' src="https://api.mapbox.com/styles/v1/ethanmoses04/ckwf4lpfubed216p89gcdzb4i.html?title=false&access_token=pk.eyJ1IjoiZXRoYW5tb3NlczA0IiwiYSI6ImNrd2Y0aWZ6bjBiNzMzMXF3d3d5MGc0NmcifQ.X7dok2HT-57kiuC3O__QIw&zoomwheel=false#16.54/37.777886/-90.779314" title="Map of Caldera's location in Caledonia, Missouri" style="border:none;"></iframe>
-                </div>
-                <div class="w20"></div>
-            </div>
         </div>
 
 

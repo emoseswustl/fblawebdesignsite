@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/barebones.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="css/foldfocus.css">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -61,20 +62,24 @@
     <main>
         <!-- Main content -->
 
-        <div class="container">
-            <div class="row">
-                <div class="w50 left">
-                    <img class="featureimage" src="img/showcase.jpg" width="100%">
+        <div class="focuscontainer">
+            <div class="row fold">
+                <div class="w50 left foldtext">
+                    <h1 class="firstline">Your local tech shop</h1>
+                    <p>From repairs to sales, we've got you covered. Our staff has the experience needed to find the parts you need or solve any technical issues you have. </p>
+                    <a href="#services"><button type="button">Learn more &#8614;</button></a>
                 </div>
-                <div class="w50 left">
-                    <h1 class="firstline">Your local tech source</h1>
-                    <p>Caldera sells a variety of devices, from laptops to parts and accessories. Our staff has the experience needed to find the parts you need or solve any technical issues you have. </p>
+                <div class="w50"></div>
+                <div class="w50 right foldimage">
+                    <img class="featureimage" src="img/laptoptransparent75.png" width="75%">
                 </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row" id="services">
                 <div class="w25 left">
-                    <h2 class="firstline">Our services make your tech experience simpler.</h2>
-                    <a href="services.html"><button type="button">Learn more &#8614;</button></a>
+                    <h2 class="firstline">We make your tech experience simpler.</h2>
+                    <a href="services.html"><button type="button">Our services &#8614;</button></a>
                 </div>
                 <div class="w25 center infocard">
                     <i class="fas fa-boxes fa-6x"></i>

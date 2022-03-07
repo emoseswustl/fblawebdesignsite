@@ -147,7 +147,7 @@ li:not(.builditem) {
 }
 
 li:not(.builditem):hover {
-    color: #ff929d;
+    color: #ffc3c9;
     text-decoration: underline;
     transition: all 1s;
 }
