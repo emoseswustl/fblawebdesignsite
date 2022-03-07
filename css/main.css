@@ -321,6 +321,19 @@ footer .container .row .w100 {
     .minibutton {
         font-size: 16px;
     }
+
+    .articlecard {
+        padding-bottom: 40px;
+        max-width: 100%;
+        max-height: 100%;
+        word-wrap: break-word;
+    }
+
+    .articlecard img {
+        max-height: 40vh;
+        width: auto;
+        max-width: 90vw;
+    }
 }
 
 @media screen and (min-width:1100px) {
