@@ -486,3 +486,7 @@ td {
     margin-top: 0px;
     margin-bottom: 5px;
 }
+
+.hidden {
+    display: none;
+}
