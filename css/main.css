@@ -379,6 +379,36 @@ footer .container .row .w100 {
     }
 }
 
+@media screen and (max-width:1100px) {
+    .address, .map {
+        width: 47%;
+    }
+
+    .address {
+        padding-bottom: 50px;
+    }
+
+    .newsletter {
+        width: 97%;
+    }
+
+    .cm {
+        width: 47%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .address, .map {
+        width: 97%;
+    }
+
+    .cm {
+        width: 97%;
+        height: auto;
+    }
+}
+
 #sm {
     padding-top: 16px;
 }
