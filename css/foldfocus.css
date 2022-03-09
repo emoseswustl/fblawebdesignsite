@@ -98,4 +98,7 @@ button {
     .focuscontainer {
         border-radius: 20px;
     }
+    .articleimage {
+        margin-top: 20px;
+    }
 }
