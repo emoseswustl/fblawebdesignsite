@@ -254,6 +254,7 @@ main .row {
     }
     .focuscontainer {
         border-radius: 20px;
+        margin-bottom: 25px;
     }
     .articleimage {
         margin-top: 20px;
