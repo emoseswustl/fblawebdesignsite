@@ -17,7 +17,6 @@ textarea {
     resize: none;
 }
 
-
 input, textarea {
     border-radius: 10px;
     padding: 6px;
@@ -136,14 +135,6 @@ input:focus, textarea:focus {
     padding-right: 0;
 }
 
-.title {
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 0;
-    color: darkblue;
-}
-
 header,
 footer {
     background: rgb(24, 24, 24);
@@ -222,11 +213,6 @@ footer .container .row .w100 {
     text-align: center;
 }
 
-.feature {
-    margin-top: -220px;
-    color: #4e1082;
-}
-
 .logotext {
     color: #fd6776;
     font-size: 35px;
@@ -239,17 +225,6 @@ footer .container .row .w100 {
 
 .logo {
     float: left;
-}
-
-.ltext {
-    color: #4e1082;
-    font-size: 40px;
-    line-height: 60px;
-    padding: 0;
-    padding-bottom: 40px;
-    margin: 0;
-    text-align: left;
-    vertical-align: middle;
 }
 
 .container {
