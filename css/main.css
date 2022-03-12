@@ -514,3 +514,7 @@ td {
 .guidetext {
     color: white;
 }
+
+img {
+    height: auto;
+}
