@@ -515,6 +515,7 @@ td {
     color: white;
 }
 
-img {
+.ar75 {
+    width: 75%;
     height: auto;
 }
