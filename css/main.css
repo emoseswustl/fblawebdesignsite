@@ -316,6 +316,16 @@ footer .container .row .w100 {
         padding-bottom: 5px;
     }
 
+    .ar75 {
+        width: 75%;
+        height: auto;
+    }
+
+    .ar50 {
+        width: 50%;
+        height: auto;
+    }
+
     .navbar {
         height: 45px;
         position: relative;
@@ -373,6 +383,11 @@ footer .container .row .w100 {
     .cm {
         width: 47%;
         height: 250px;
+    }
+
+    .ar75, .ar50 {
+        width: auto;
+        height: auto;
     }
 }
 
@@ -513,9 +528,4 @@ td {
 
 .guidetext {
     color: white;
-}
-
-.ar75 {
-    width: 75%;
-    height: auto;
 }
