@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Newsletter - Caldera</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/barebones.css">
+        <style type="text/css">
+            body {
+                background-color: rgb(24, 24, 24);
+            }
+
+            input, textarea {
+                border-radius: 10px;
+                padding: 6px;
+                font-size: 12pt;
+                border: 2px solid black;
+                background-color: #ffe2e5;
+            }
+
+            .fourbox {
+                text-align: center;
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+                margin: auto;
+                margin-top: 20px;
+                padding: 20px;
+                border-radius: 20px;
+                background-color: #f8f8f8;
+            }
+
+            .fourboxlogo {
+                text-align: center;
+                width: 100%;
+                max-width: 500px;
+                margin: auto;
+                margin-top: 25px;
+            }
+
+            h2 {
+                padding: 0;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            .logo404 {
+                padding-bottom: 20px;
+            }
+
+            .logotext {
+                /* color: #ff6308; */
+                /* color: #ff4255; */
+                color: #fd6776;
+                font-size: 35px;
+                padding: 0;
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 1px;
+                float: left;
+            }
+
+            .logo {
+                float: left;
+            }
+
+            .row {
+                height: auto;
+            }
+
+            .toppad {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            button {
+                color: white;
+                background: rgb(175, 54, 66);
+                border: 0;
+                padding: 10px;
+                margin: 5px;
+                margin-left: 0;
+                font-weight: bolder;
+                font-size: 15pt;
+                font-family: "Lora", serif;
+                border-radius: 15px;
+            }
+
+            button:hover {
+                color: black;
+                background-color: white;
+                transition: all 1s;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fourboxlogo">
+            <div class="row left logobox">
+                <div class="w100">
+                    <img class="logo" src="img/volcano.png" width="45px" height="45px">
+                    <h1 class="logotext">Caldera</h1>
+                </div>
+            </div>
+        </div>
+        <div class="fourbox">
+            <div class="row toppad">
+                <div class="w100 left newsletter">
+                    <h2 class="firstline">Subscribe to our newsletter!</h2>
+                    <p>We send weekly guides for important tech questions and even provide exclusive deals! You can unsubscribe at any time.</p>
+                    <form name="newsletter" action="/formsuccess.html" netlify>
+                        <p>
+                            <label>Name <br><input type="text" name="name" required/></label>
+                        </p>
+                        <p>
+                            <label>Email <br><input type="email" name="email" required/></label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="agree" name="agree" value="Yes.">
+                            <label for="agree">I want to receive weekly emails from Caldera.</label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
