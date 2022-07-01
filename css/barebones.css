@@ -298,3 +298,7 @@ main .row {
         width: 98%;
     }
 }
+
+.tos {
+    word-wrap: normal;
+}
